@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="7dp"
+    app:cardElevation="4dp">
+    <!--ana sayfa sol pencere category kısmı-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#DFFFD1">
+        <ImageView
+            android:background="@drawable/border"
+            android:layout_width="150dp"
+            android:src="@drawable/fruits"
+            android:layout_height="150dp"
+            android:id="@+id/cat_nav_img"
+            android:scaleType="centerInside"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_cat_name"
+            android:text="Name"
+            android:fontFamily="@font/alice"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_cat_description"
+                android:text="Description"
+                android:fontFamily="@font/alice"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount:"
+                android:textSize="20sp"
+                android:fontFamily="@font/alice"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_cat_discount"
+                android:text="20% OFF"
+                android:fontFamily="@font/alice"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

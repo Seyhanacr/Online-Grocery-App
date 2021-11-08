@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079973932042",
+    "project_id": "market-projesi",
+    "storage_bucket": "market-projesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079973932042:android:8bd902e8bb5808a03343f3",
+        "android_client_info": {
+          "package_name": "com.seyhn.acar.marketprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079973932042-6vkdmntu5lsv8v80204f3kgiujp5s44n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6sYzOl0MP_a8JE5C1si1ZKOYbTEyf6Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079973932042-6vkdmntu5lsv8v80204f3kgiujp5s44n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
